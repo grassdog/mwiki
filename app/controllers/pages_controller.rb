@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   DEFAULT_BODY = '# Click EDIT to write something!'
 
   def index
-    redirect_to :action => 'show', :id => 'Welcome'
+    #redirect_to :action => 'show', :id => 'Welcome'
   end
 
   def show
